@@ -1,0 +1,26 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    max-height: 100vh;
+}
+.row-1 {
+ width:100%;
+ height:auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+flex-flow:wrap;
+}
+.col-one {
+    margin-top: 3%;
+    width:30%;
+    height:250px ;
+    background: rgb(75, 73, 73);
+    box-sizing: border-box;
+    border-radius:23px ;
+    padding-left:10px ;
+  
+}

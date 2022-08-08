@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        height: 100vh;
+        width: 100vw;
+        background-color: #DDE8F0;
+    }
+
+    table,
+    tr,
+    td {
+
+        border: 2px solid#018ABD ;
+    }
+
+    td {
+        font-size: 25px;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+
+    }
+
+    .button {
+        margin-top: 1%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .button button {
+        font-size: 50%;
+        cursor: pointer;
+        padding: 19%;
+        background: #97CBDC;
+        border: none;
+        outline: none;
+        border: 2px solid #004581;
+        border-radius: 5px;
+    }
+    .heading{
+        color:#004581;
+    }
+    .number{
+        border:2px solid #004581;
+    }
+</style>
+
+<body>
+    <div class="table">
+        
+        <table>
+            <h3 class="heading">Please Select The Menu</h3>
+            <th>
+                <tr>
+                    <td>Menu</td>
+                    <td>Price</td>
+                    <td>Yes/No</td>
+                    <td>Quantity</td>
+                </tr>
+            </th>
+            <tr>
+                <td>Briyani</td>
+                <td>150</td>
+                <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td><input type="number" class="number"></td>
+            </tr>
+            <tr>
+                <td>Daal</td>
+                <td>60</td>
+                <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td><input type="number" class="number"></td>
+            </tr>
+            <tr>
+                <td>Shwarma</td>
+                <td>75</td>
+                <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td><input type="number" class="number"></td>
+            </tr>
+            <tr>
+                <td>Cold drinks</td>
+                <td>25</td>
+                <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td><input type="number" class="number"></td>
+            </tr>
+            <tr>
+                <td>Sabzi</td>
+                <td>65</td>
+                <td class="checkbox"><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td><input type="number" class="number"></td>
+            </tr>
+            <tr>
+                <td>Raita</td>
+                <td>30</td>
+                <td><input type="checkbox" name="checkbox" id="checkbox"></td>
+                <td><input type="number" class="number"></td>
+            </tr>
+        </table>
+        <div class="button">
+            <button> Order </button>
+        </div>
+    </div>
+</body>
+
+</html>
